@@ -1,9 +1,3 @@
-vRPpm = {}
-Tunnel.bindInterface("Magni_garage",vRPpm)
-Proxy.addInterface("Magni_garage",vRPpm)
-PMserver = Tunnel.getInterface("Magni_garage","Magni_garage")
-vRPserver = Tunnel.getInterface("vRP","Magni_garage")
-vRP = Proxy.getInterface("vRP")
 
 
 HT = nil
